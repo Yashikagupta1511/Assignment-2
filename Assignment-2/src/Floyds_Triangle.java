@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Floyds_Triangle {
+
+	public static void main(String[] args)
+	{
+		int i,j,n,k;
+		k=1;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter no. of Rows in Floyds Triangle");
+		n=sc.nextInt();
+		for(i=1;i<=n;i++)
+		{
+			for(j=1;j<=i;j++)
+			{
+				System.out.print(k+" ");
+				k++;
+			}
+			System.out.println();
+		}
+	}
+
+}
